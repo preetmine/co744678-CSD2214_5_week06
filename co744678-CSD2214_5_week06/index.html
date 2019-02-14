@@ -29,7 +29,7 @@
             return sum;
         }
 
-     */
+  
       
         rows = prompt("how mwny rows");
         cols = prompt("how many cols");
@@ -58,11 +58,29 @@
             output = output + "</table>";
             document.write(output);
         }
-    </script>
+           */
 
+
+        function trigger() {
+            document.getElementById("hover").addEventListener("mouseover", popup);
+            function popup() {
+                alert("welcome to my web page!!!")
+            }
+        }
+    </script>
+    <style>
+
+        p {
+            font-size:50px;
+            position: fixed;
+            left:550px;
+            top:300px;
+        }
+        </style>
 
 </head>
-<body>
+<body onload="trigger();">
+    <p id="hover">welcome</p>
     <div>Content goes here!</div>
     <script src="js/main.js"></script>
 
