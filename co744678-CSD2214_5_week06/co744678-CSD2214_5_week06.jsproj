@@ -68,6 +68,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="formvalidation.html" />
     <Content Include="image.html" />
     <Content Include="images\new.png" />
     <Content Include="images\Pomeranian-dog.png" />
