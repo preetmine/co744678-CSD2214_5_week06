@@ -36,7 +36,7 @@
                 var atops = input[i].indexOf("@");
                 var dotops = input[i].lastIndexOf(".");
                 if (atops < 1 || dotops < atops + 2 || dotops + 2 >= input[i].length)
-                    document.getElementById('erremail').innerHTML = "<span style='color:red'>Enter a valid email address!</span>
+                    document.getElementById('erremail').innerHTML = "<span style='color:red'>Enter a valid email address!</span>";
                 else
                     document.grtElementById(div).innerHTML = "OK!";
             }
@@ -49,10 +49,10 @@
                     document.getElementById(div).innerHTML = "OK";
             }
             else
-                document.getElementById(div).innerHTML = "OK"!;
+                document.getElementById(div).innerHTML = "OK";
         }
 	}
-        functional finalValidate(){
+        function finalValidate(){
             var count = 0;
             for (i = 0; i < 6; i++) {
                 var div = divs[i];
