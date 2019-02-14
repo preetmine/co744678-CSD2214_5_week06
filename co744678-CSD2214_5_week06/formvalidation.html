@@ -36,7 +36,7 @@
                 var atops = input[i].indexOf("@");
                 var dotops = input[i].lastIndexOf(".");
                 if (atops < 1 || dotops < atops + 2 || dotops + 2 >= input[i].length)
-                    document.getElementById('errEmail').innerHTML = "<span style='color:red'>Enter a valid email address!</span>
+                    document.getElementById('erremail').innerHTML = "<span style='color:red'>Enter a valid email address!</span>
                 else
                     document.grtElementById(div).innerHTML = "OK!";
             }
@@ -44,7 +44,7 @@
                 var first = document.getElementById('password').value;
                 var second = document.getElementById('confirm').value;
                 if (second != first)
-                    document.getElementById('errConfirm').innerHTML = "<span style='color:red'>Your passwords don't match!</span>";
+                    document.getElementById('errconfirm').innerHTML = "<span style='color:red'>Your passwords don't match!</span>";
                 else
                     document.getElementById(div).innerHTML = "OK";
             }
