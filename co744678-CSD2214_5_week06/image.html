@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script  type="text/javascript">
+        function mouserollover(myimage) {
+            myimage.src = "pomeranian-dog.png";
+        }
+        function mouseout(myimage) {
+        myimage.src = "new.png";
+             }
+
+
+    </script>
+</head>
+<body>
+    <div>Content goes here.</div>
+
+
+    <div align="center">
+
+
+        <img src="pomeranian-dog.png" border="1px"
+             width="650px"
+             height="550px"
+             onmouseover="mouserollover(this)"
+             onmouseout="mouseout(this)"/>
+
+
+    </div>
+   
+    </body>
+</html>
